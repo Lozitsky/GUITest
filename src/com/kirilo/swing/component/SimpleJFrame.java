@@ -21,4 +21,9 @@ public class SimpleJFrame extends JFrame {
         super.getContentPane().add(component);
         super.setVisible(true);
     }
+    public SimpleJFrame(String title, int width, int height, LayoutManager layoutManager) throws HeadlessException {
+        this(title, width, height);
+        super.setLayout(layoutManager);
+        super.setVisible(true);
+    }
 }
