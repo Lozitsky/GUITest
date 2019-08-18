@@ -1,7 +1,9 @@
 package com.kirilo.swing;
 
-import com.jtattoo.plaf.acryl.AcrylLookAndFeel;
 import com.jtattoo.plaf.aluminium.AluminiumLookAndFeel;
+import com.kirilo.swing.component.SimpleJButton;
+import com.kirilo.swing.component.SimpleJFrame;
+import com.kirilo.swing.component.SimpleJPanel;
 
 import javax.swing.*;
 
@@ -21,7 +23,7 @@ public class MainGUI {
         } catch (UnsupportedLookAndFeelException e) {
             e.printStackTrace();
         }
-        SimpleButton button = new SimpleButton("Button");
+        SimpleJButton button = new SimpleJButton("Button");
         SimpleJPanel panel = new SimpleJPanel("Panel", 100, 100, button);
         SimpleJFrame frame = new SimpleJFrame("Frame", 200, 200, panel);
     }

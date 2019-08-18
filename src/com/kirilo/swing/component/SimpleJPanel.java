@@ -1,9 +1,12 @@
-package com.kirilo.swing;
+package com.kirilo.swing.component;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class SimpleJPanel extends JPanel {
+    public SimpleJPanel() {
+    }
+
     public SimpleJPanel(String name, int width, int height) {
         super.setName(name);
         super.setSize(width, height);
