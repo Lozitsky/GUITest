@@ -7,8 +7,8 @@ public class SimpleJPanel extends JPanel {
     public SimpleJPanel(String name, int width, int height) {
         super.setName(name);
         super.setSize(width, height);
-//        super.setBorder(BorderFactory.createEtchedBorder());
-        super.setBorder(BorderFactory.createLoweredBevelBorder());
+        super.setBorder(BorderFactory.createEtchedBorder());
+//        super.setBorder(BorderFactory.createLoweredBevelBorder());
     }
 
     public SimpleJPanel(String name, int width, int height, Component component) {
