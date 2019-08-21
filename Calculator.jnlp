@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+"
+      codebase="file:/D:/IdeaProjects/GUITest/"
+      href="Calculator.jnlp">
+    <information>
+        <title>Jnlp Testing</title>
+        <vendor>Kirilo</vendor>
+        <description>Testing Testing</description>
+    </information>
+    <resources>
+        <j2se version="1.7+" />
+        <jar href="out/artifacts/GUITest_jar/GUITest.jar" />
+    </resources>
+    <application-desc
+            name="Calculator"
+            main-class="com.kirilo.swing.TestGUI">
+    </application-desc>
+    <update check="background"/>
+</jnlp>
